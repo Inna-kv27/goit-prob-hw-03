@@ -136,6 +136,7 @@ address {
     
 .first {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .first-title {
@@ -145,7 +146,10 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .first-btm {
@@ -158,6 +162,9 @@ address {
     padding: 16px 32px;
     min-width: 169px;
     background: #4d5ae5;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
     /** FEATURES **/
@@ -168,12 +175,18 @@ address {
 .features-section {
     display: flex;
     align-items: center;
+    
 }
 
 .features-list {
+    display: flex;
+    padding: 120px 0;
+    /* gap: 24px; */
 }
 
 .features-item {
+    width: calc((100% - 72px) / 4);
+
 }
 
 .features-item-subtitle {
@@ -182,6 +195,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -194,6 +208,7 @@ address {
 
 .studio {
     background-color: #f4f4fd;
+    padding-top: 120px;
 }
 
 .studio-title {
@@ -203,15 +218,19 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .studio-list {
     display: flex;
+    align-items: center;
+    padding-bottom: 120px;
 }
 
 .studio-list-item {
+    background-color: #fff;
+    width: calc((100% - 72px) / 3);
 }
-
 .studio-list-img {
 }
 
